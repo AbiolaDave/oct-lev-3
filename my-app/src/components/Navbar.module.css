@@ -1,0 +1,29 @@
+.links {
+  display: flex;
+  gap: 50px;
+}
+
+.navbar {
+  height: 50px;
+  border-bottom: 2px solid blue;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.abc {
+  font-family: cursive;
+}
+
+.btn {
+  display: flex;
+  gap: 50px;
+}
+
+.login {
+  width: 80px;
+  height: 40px;
+  background-color: white;
+  color: green;
+  border: 1px solid green;
+  border-radius: 12px;
+}

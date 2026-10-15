@@ -1,0 +1,9 @@
+.heroTitle {
+  color: red;
+}
+
+.heroSection {
+  background-color: rgba(24, 17, 26, 0.326);
+  height: 100px;
+  color: rgba(255, 0, 234, 0.402)    
+}
