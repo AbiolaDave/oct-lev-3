@@ -1,0 +1,14 @@
+import React from "react";
+import Navbar from "../components/Navbar";
+
+const Profile = () => {
+  return (
+    <div>
+      <Navbar />
+      <h1>Profile Page</h1>
+      <button>Settings</button>
+    </div>
+  );
+};
+
+export default Profile;

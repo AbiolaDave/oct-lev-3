@@ -1,5 +1,6 @@
 import "./navbar.css";
 import myPersonalStyle from "./Navbar.module.css";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const logo = {
@@ -33,9 +34,15 @@ const Navbar = () => {
         <div
           className={`${myPersonalStyle.links} ${myPersonalStyle.sqi} ${myPersonalStyle.abc}`}
         >
-          <h3>About</h3>
-          <h3>Contact</h3>
-          <h3>Service</h3>
+          <Link className={`${myPersonalStyle.xyz}`} to="/about">
+            <h3>About</h3>
+          </Link>
+          <Link className={`${myPersonalStyle.xyz}`} to="/contact">
+            <h3>Contact</h3>
+          </Link>
+          <Link className={`${myPersonalStyle.xyz}`} to="/service">
+            <h3>Service</h3>
+          </Link>
         </div>
         <div className={`${myPersonalStyle.btn}`}>
           <button style={internal}>Sign Up</button>

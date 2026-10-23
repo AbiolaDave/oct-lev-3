@@ -1,6 +1,15 @@
 .links {
   display: flex;
   gap: 50px;
+  text-decoration: none !important;
+}
+
+.links {
+  text-decoration: none;
+}
+
+.xyz{
+  text-decoration: none !important;
 }
 
 .navbar {
